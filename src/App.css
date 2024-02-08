@@ -1,38 +1,125 @@
-.App {
+body {
+  margin: 0; 
+  padding: 0; 
+  background-color:#0d1117; 
+  color: white; 
+  font-size: 14px;
+  padding: 8px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  line-height: 1.5;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: black; 
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  
+}
+
+input[type="submit"] {
+  border: 1px solid #30363d;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  background-color: #238636;
+  border-bottom: 1px solid rgba(240, 246, 252, 0.1);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+footer {
+  background-color: #0d1117;
+  color: white;
+  padding: 10px;
   text-align: center;
+  color: #848d97;
+  font-size: 12px;
+  margin: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer span {
+  margin-right: 23px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 24px;
+  font-weight: var(--base-text-weight-light, 300);
+  letter-spacing: -0.5px;
+  margin-top: 1px;
+  margin-bottom: 16px;
+  color: #eaeef2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  margin-top: 150px;
+  margin-right: 20px;
+  background-color: #161b22; 
+  padding: 16px;
+  border-radius: 6px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 275px; 
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 6px;
+  border: 1px solid #21262d;
+} 
+
+form label {
+  text-align: left; 
+  display: block; 
+  width: 100%; 
+  margin-bottom: -15px;
+  margin-left: 5px;
+}
+
+.login-callout {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 275px; 
+  height: 30px; 
+  margin: 60px auto; 
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #4c4b4b;
+  border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 275px; 
+  height: 31px; 
+  padding: 10px; 
+  margin-top: 0px; 
+  margin-bottom: 15px;
+  margin-left: 0px;
+  border-radius: 6px; 
+  box-sizing: border-box; 
+  border: 1px solid #30363d;
+  background-color: #0d1117;
+}
+.forgot-password {
+  color: #2f81f7;
+  margin-bottom: 8px; 
+  text-decoration: none; 
+  float: right;
+  margin-right: 11px;
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create {
+  color: #2f81f7;
+  margin-bottom: 8px; 
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 10px;
+  text-align: center;
 }
+
